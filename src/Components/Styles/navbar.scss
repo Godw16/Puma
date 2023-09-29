@@ -1,0 +1,46 @@
+@import '../../variable.scss';
+
+
+
+.navbar{
+    background-color:$color-2;
+    // position:relative;
+    color: white;
+    // position: fixed;
+    width: 100vw;
+    .toolbar{
+        .heading{
+            .image{
+                height: 40px ;
+                width: 40px;
+            }
+
+        }
+        .list{
+            // text-decoration: none;
+            color: white;
+             display: flex;
+             padding-left: 25px;
+            .listitem{
+                display: flex;
+                align-items: center !important;
+                justify-content:space-around !important ;
+                padding-left: 26px;
+                font-weight: 600;
+
+            }
+        }
+        .search{
+            padding-left: 100px;
+        }
+        .heart{
+            padding-left: 26px; 
+        }
+        .shop{
+            padding-left: 26px;
+        }
+        .log{
+            padding-left: 26px;
+        }
+    }  
+}
